@@ -1,0 +1,22 @@
+{
+  "name": "Sfotipy",
+  "version": "0.0.1",
+  "description": "Project about a digital music service ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "stylus": "stylus -c app/stylus/estilos.styl -o app/css/ -u nib -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msanchezp/Sfotipy.git"
+  },
+  "author": "Manuel Sánchez <alejandromanuel94@hotmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/msanchezp/Sfotipy/issues"
+  },
+  "dependencies": {
+    "node-static": "0.7.3"
+  }
+}

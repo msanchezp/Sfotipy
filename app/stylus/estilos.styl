@@ -1,0 +1,543 @@
+blanco = #fdfdfd
+gris_oscuro = #333333
+gris_claro = #818181
+rojo = #BD255B
+gris_mas_claro = #f0f0f0
+
+@import "nib"
+@import "normalize.styl"
+@import "fonts.styl"
+@import "buttons.styl"
+@import "signin.styl"
+
+a
+	text-decoration none
+
+body
+	font-family 'Varela Round', sans-serif
+	font-size 16px
+
+img
+	vertical-align top
+
+figure
+	margin 0
+
+ul
+	margin 0
+	padding 0
+
+.action
+	color white
+	font-size 1.2em
+	margin-right .5em
+	&:last-child
+		margin-right 0
+	&.gray
+		color gris_claro
+
+.actions
+	background rgba(black,.3)
+	bottom 0
+	left 0
+	position absolute
+	right 0
+
+.author
+	color gris_claro
+
+.avatar
+	height 38px
+	width 38px
+
+.block
+	display block
+
+.border-bottom
+	border-bottom 1px solid gris_claro
+	&--claro
+		border-bottom 2px solid gris_mas_claro
+
+.border-top
+	border-top 1px solid gris_oscuro
+	&--claro
+		border-top 2px solid gris_mas_claro
+
+.button-menu
+	color gris_oscuro
+	left .5em
+	margin-top -10px
+	position absolute
+	top 50%
+
+.center-block
+	margin 0 auto
+
+.center-text
+	text-align center
+
+.close-icon
+	color gris_claro
+	cursor pointer
+	font-size 1.2em
+	position absolute
+	right .5em
+	top .5em
+
+.container
+	font-size 0
+	padding 1.4rem
+	text-align center
+
+.display
+	&--none
+		display none
+
+.footer
+	background gris_oscuro
+	height 3em
+
+	figure
+		float left
+		margin .8em 0 0 .5em
+		width 80px
+
+		img
+			width 100%
+	.info
+		float right
+		margin .9em 1.2em 0 1em
+		a
+			color blanco
+			font-weight 100
+			font-size 1em
+			margin-left .7em
+
+.form
+	margin-bottom 1em
+	padding-bottom 1em
+	.group
+		width auto
+		.icon
+			color gris_claro
+			margin 1em 0 0 .5em
+			position absolute
+			cursor pointer
+		.input
+			border-radius 2px
+			margin .2em 0
+			width 15em
+			&--submit
+				background #CB2F70
+				color blanco
+				width 18.25em
+
+.header
+	height 3.5em
+	.title
+		font-size 1.1em
+		line-height 3.5em
+		margin 0
+		text-align center
+
+.isotipo
+	width 122px
+
+.isotipo-big
+	margin 1.2em auto
+	width 220px
+
+	img
+		width 100%
+
+.input
+	color gris_claro
+	border 1px solid gris_claro
+	border-radius 5px
+	height 2.5em
+	padding 0 1em 0 2em
+
+.left
+	float left
+
+.lema
+	color gris_mas_claro
+	font-size 1.8em
+	font-weight 400
+	line-height 1.1em
+	margin 0 1em
+	text-align center
+
+.logo
+	background white
+	display none
+	padding 1.3em 0
+	overflow hidden
+
+.visible--large
+	display none
+
+.menu
+	display none
+
+.name 
+	color gris_oscuro
+
+.padding
+	padding 1em
+
+.padding-tb
+	padding 1em 0
+
+.playing
+	&.small
+		margin 0 auto
+		width 20em
+
+.playlist
+	display none
+	border-left 1px solid gris_claro
+	padding 0 2em
+	width 22em
+	.list
+		list-style none
+	.item
+		padding 1em 0
+	.action
+		font-size .8em
+
+.progress
+	margin 1em 0
+	position relative
+	.circle
+		animation 1s circle infinite
+		background gris_oscuro
+		border-radius 50%
+		height 10px
+		position absolute
+		right 0
+		top -2px
+		width 10px
+	.max
+	.min
+		font-size .8em
+		top -5px
+		position absolute
+	.min
+		left 0
+	.max
+		position absolute
+		right 0
+	
+	.state
+		animation 136s state infinite linear
+		background rojo
+		border-radius 5px
+		height 5px
+		position relative
+		width 30%
+	.total
+		background gris_claro
+		border-radius 5px
+		height 5px
+		margin 0 auto
+		width 75%
+
+.quality
+	figure
+		height 180px
+		overflow hidden
+		position relative
+		width 100%
+		img
+			position absolute
+			top -25%
+			width 100%
+
+.relative
+	position relative
+
+.right
+	float right
+
+.right-text
+	text-align right
+
+.round
+	border-radius 50%
+	overflow hidden
+
+.search-icon
+	color gris_claro
+	position absolute
+	left .5em
+	top .8em
+
+.song
+	display inline-block
+	font-size 1rem
+	margin-bottom 1em
+	margin-right 1em
+	text-align left
+	vertical-align top
+	width 8rem
+	
+	&:nth-child(even)
+		margin-right 0
+
+	p
+		margin .5em 0
+
+.splash
+	background url("../img/header.jpg") no-repeat 95% center
+	background-size cover
+	padding 4em 0
+	width 100%
+
+.subtitle
+	color gris_oscuro
+	font-size 1.7em
+	font-weight 500
+	margin .2em 0	
+
+.text
+	color gris_claro	
+	margin 0 2em 1.5em 2em
+	text-align center
+	&--important
+		font-size 1.2em
+	&--final
+		font-size 1.5em
+		padding-top .5em
+	&--titulo
+		color gris_oscuro
+		font-size 1.3em
+		margin .5em 2em 
+	&--rojo
+		color rojo
+	&--blanco
+		color blanco
+
+.username
+	color gris_claro
+	position relative
+	top 9px
+	margin-left .5em
+
+	&:after
+		content ""
+		border-left 7px solid transparent
+		border-top 9px solid gris_claro
+		border-right 7px solid transparent
+		display inline-block
+		margin-left .4em	
+
+.wrap
+	width 1000px
+
+
+@keyframes circle
+	0%
+		transform scale(1)
+	100%
+		opacity 0
+		transform scale(2)
+
+@keyframes state
+	0%
+		width 0
+	100%
+		width 100%
+
+@media screen and (min-width:475px)
+	.image
+		img
+			height auto
+			width 100%
+	.footer
+		.info
+			float left
+	.form
+		.group
+			.input
+				width 18em
+				&--submit
+					width 21.25em
+
+	.quality
+		figure
+			height 200px
+			img
+				top -30%
+
+	.playing
+		&.medium
+			width auto
+	.song
+		&:nth-child(even)
+			margin-right 1em
+
+@media screen and (min-width:600px)
+	.quality
+		figure
+			height 220px
+			img
+				top -60%
+				transform scaleY(.8)
+
+	.lema
+		font-size 2em
+		margin 1em 3em 0em 3em
+
+@media screen and (min-width:785px)
+	.quality
+		figure
+			img
+				top -80%
+				transform scaleY(.8)
+
+	.lema
+		font-size 2.7em
+		margin 1.5em 4.5em 0em 4.5em
+
+@media screen and (min-width:1000px)
+	body
+		background gris_mas_claro
+	
+	.user
+		margin-left .5em
+	.button-menu
+		display none
+
+	.form
+		margin-bottom 2em
+		border-bottom 1px solid gris_claro
+		.group
+			.input
+				width 25em
+				&--submit
+					width 28.25em
+
+	.header
+		height auto
+		border none
+		.title
+			display none
+
+	.logo
+	.playlist
+		display block
+
+	.qualities
+		margin 1em auto
+		width 1000px
+		.quality
+			overflow hidden
+			text-align center
+			.imagen-thumb
+			.texto-adicional
+				display inline-block
+				margin 0 2.5em
+				width 40%
+			.imagen-thumb
+				&.quality-right
+					float right
+					figure
+						float left
+				figure
+					border-radius 50%
+					height 300px
+					width 300px
+					float right
+					img
+						left 20%
+						position absolute
+						top 10%
+						transform scale(2)
+			.texto-adicional
+				padding-top 10%
+				vertical-align top
+				&.quality-left
+					float left
+					.subtitle
+					.text
+						text-align right
+						margin-right 0	
+				.subtitle
+				.text
+					font-size 1.5em
+					text-align left
+					margin-left 0		
+
+	.lema
+		font-size 3.5em
+		margin 3em 5em 1em 5em
+
+	.logo-visible
+		height 5.5em
+		margin-bottom 4em
+		overflow hidden
+		width 1000px
+		.left--large
+		.right--large
+			display inline-block
+			vertical-align middle
+		.left--large
+			float left
+			.isotipo-big
+				margin .8em 0 0 0
+				width 220px
+		.right--large
+			float right
+			height 2em
+			margin 1.5em 0 0 0
+			a
+				font-size 1.2em
+				font-weight lighter
+				color rojo
+				display block
+				padding .5em
+
+	.menu
+		background gris_mas_claro
+		display block
+		overflow hidden
+		border-top 1px solid gris_claro
+		.item
+			float left
+			list-style none
+			a
+				color gris_oscuro
+				text-transform uppercase
+				padding 1em
+				display block
+				border-top 5px solid transparent
+				&:hover
+					border-top 5px solid gris_claro
+	
+	.music
+		float left
+		width 32.5em
+		.description
+			display none
+
+	.playing
+		padding-top 1.3em
+		&.large
+			margin 0 auto
+			overflow hidden
+			width 62.5em
+
+	.signin
+		display none
+
+	.splash
+		background-position center
+		padding-top .2em
+		padding-bottom 6em
+
+	.visible
+		&--large
+			display inline-block
+		&--medium
+			display none
