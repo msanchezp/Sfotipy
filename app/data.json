@@ -1,7 +1,7 @@
 {
 	"Beacon" : {
 		"author": "Two Doors Cinema Club",
-		"cover": "test1.jpg",
+		"cover": "test2.jpg",
 		"year": 2012,
 		"songs": [
 			{
@@ -52,7 +52,7 @@
 	},
 	"Girl": {
 		"author": "Pharrell Williams",
-		"cover": "test.jpg",
+		"cover": "test1.jpg",
 		"year": 2014,
 		"songs": [
 			{
@@ -99,7 +99,7 @@
 	},
 	"In a Tidal Wave of Mistery": {
 		"author": "Capital Cities",
-		"cover": "test2.jpg",
+		"cover": "test3.jpg",
 		"year": 2014,
 		"songs": [
 			{
@@ -150,7 +150,7 @@
 	},
 	"Recess": {
 		"author": "Skrillex",
-		"cover": "test3.jpg",
+		"cover": "test4.jpg",
 		"year": 2014,
 		"songs": [
 			{
@@ -201,7 +201,7 @@
 	},
 	"Strength to Survive": {
 		"author": "SOJA",
-		"cover": "test4.jpg",
+		"cover": "test5.jpg",
 		"year": 2012,
 		"songs": [
 			{
@@ -248,7 +248,7 @@
 	},
 	"La Dulzura": {
 		"author": "Cultura Profética",
-		"cover": "test5.jpg",
+		"cover": "test6.jpg",
 		"year": 2010,
 		"songs": [
 			{
@@ -303,7 +303,7 @@
 	},
 	"Curses from past times EP": {
 		"author": "Proleter",
-		"cover": "test6.jpg",
+		"cover": "test7.jpg",
 		"year": 2013,
 		"songs": [
 			{
@@ -337,12 +337,12 @@
 			{
 				"name": "The Misfit Song",
 				"length": "4:46"
-			},
+			}
 		]
 	},
 	"Random Access Memories": {
 		"author": "Daft Punk",
-		"cover": "test7.jpg",
+		"cover": "test8.jpg",
 		"year": 2013,
 		"songs": [
 			{
@@ -392,7 +392,7 @@
 			{
 				"name": "Contact",
 				"length": "6:24"
-			},
+			}
 		]
 	}
 }
