@@ -1,0 +1,398 @@
+{
+	"Beacon" : {
+		"author": "Two Doors Cinema Club",
+		"cover": "test2.jpg",
+		"year": 2012,
+		"songs": [
+			{
+				"name": "Next Year",
+				"length": "4:12"
+			},
+			{
+				"name": "Handshake",
+				"length": "3:31"
+			},
+			{
+				"name": "Wake Up",
+				"length": "3:46"
+			},
+			{
+				"name": "Sun",
+				"length": "3:08"
+			},
+			{
+				"name": "Someday",
+				"length": "3:43"
+			},
+			{
+				"name": "Sleep Alone",
+				"length": "3:56"
+			},
+			{
+				"name": "The World is Watching",
+				"length": "3:36"
+			},
+			{
+				"name": "Settle",
+				"length": "3:52"
+			},
+			{
+				"name": "Spring",
+				"length": "3:24"
+			},
+			{
+				"name": "Pyramid",
+				"length": "3:10"
+			},
+			{
+				"name": "Beacon",
+				"length": "3:25"
+			}
+		]
+	},
+	"Girl": {
+		"author": "Pharrell Williams",
+		"cover": "test1.jpg",
+		"year": 2014,
+		"songs": [
+			{
+				"name": "Marilyn Monroe",
+				"length": "5:52"
+			},
+			{
+				"name": "Brand New",
+				"length": "4:32"
+			},
+			{
+				"name": "Hunter",
+				"length": "4:01"
+			},
+			{
+				"name": "Gush",
+				"length": "3:55"
+			},
+			{
+				"name": "Happy",
+				"length": "3:53"
+			},
+			{
+				"name": "Come Get It Bae",
+				"length": "3:22"
+			},
+			{
+				"name": "Gust of Wind",
+				"length": "4:46"
+			},
+			{
+				"name": "Lost Queen",
+				"length": "7:57"
+			},
+			{
+				"name": "Know Who You Are",
+				"length": "3:57"
+			},
+			{
+				"name": "It Girl",
+				"length": "4:49"
+			}
+		]
+	},
+	"In a Tidal Wave of Mistery": {
+		"author": "Capital Cities",
+		"cover": "test3.jpg",
+		"year": 2014,
+		"songs": [
+			{
+				"name": "Safe and Sound",
+				"length": "3:13"
+			},
+			{
+				"name": "Kangaroo Court",
+				"length": "3:43"
+			},
+			{
+				"name": "I Sold My Bed, But Not My Stereo",
+				"length": "3:54"
+			},
+			{
+				"name": "Center Stage",
+				"length": "4:02"
+			},
+			{
+				"name": "Farrah Fawcett Hair (featuring André 3000)",
+				"length": "3:50"
+			},
+			{
+				"name": "Chartreuse",
+				"length": "3:39"
+			},
+			{
+				"name": "Origami",
+				"length": "3:45"
+			},
+			{
+				"name": "Lazy Lies",
+				"length": "2:57"
+			},
+			{
+				"name": "Tell Me How to Live",
+				"length": "3:24"
+			},
+			{
+				"name": "Chasing You (featuring Soseh)",
+				"length": "3:50"
+			},
+			{
+				"name": "Love Away",
+				"length": "3:42"
+			}
+		]
+	},
+	"Recess": {
+		"author": "Skrillex",
+		"cover": "test4.jpg",
+		"year": 2014,
+		"songs": [
+			{
+				"name": "All Is Fair in Love and Brostep",
+				"length": "4:09"
+			},
+			{
+				"name": "Recess",
+				"length": "3:58"
+			},
+			{
+				"name": "Stranger",
+				"length": "4:50"
+			},
+			{
+				"name": "Try It Out",
+				"length": "3:49"
+			},
+			{
+				"name": "Coast Is Clear",
+				"length": "4:04"
+			},
+			{
+				"name": "Dirty Vibe",
+				"length": "3:27"
+			},
+			{
+				"name": "Ragga Bomb",
+				"length": "4:19"
+			},
+			{
+				"name": "Doompy Bomb",
+				"length": "3:25"
+			},
+			{
+				"name": "Fuck That",
+				"length": "3:50"
+			},
+			{
+				"name": "Easy My Mind",
+				"length": "5:03"
+			},
+			{
+				"name": "Fire Away",
+				"length": "5:41"
+			}
+		]
+	},
+	"Strength to Survive": {
+		"author": "SOJA",
+		"cover": "test5.jpg",
+		"year": 2012,
+		"songs": [
+			{
+				"name": "Mentallity",
+				"length": "4:07"
+			},
+			{
+				"name": "Strength To Survive",
+				"length": "3:24"
+			},
+			{
+				"name": "Everything Changes",
+				"length": "3:40"
+			},
+			{
+				"name": "Don't Worry",
+				"length": "5:05"
+			},
+			{
+				"name": "Tell me",
+				"length": "3:23"
+			},
+			{
+				"name": "It's Not Too Late",
+				"length": "3:33"
+			},
+			{
+				"name": "Gone Today",
+				"length": "3:34"
+			},
+			{
+				"name": "Let You Go",
+				"length": "3:58"
+			},
+			{
+				"name": "Not Done Yet",
+				"length": "4:14"
+			},
+			{
+				"name": "Slow Down",
+				"length": "4:01"
+			}
+		]
+	},
+	"La Dulzura": {
+		"author": "Cultura Profética",
+		"cover": "test6.jpg",
+		"year": 2010,
+		"songs": [
+			{
+				"name": "Rimas Pa' Seducir",
+				"length": "3:07"
+			},
+			{
+				"name": "La complicidad",
+				"length": "6:04"
+			},
+			{
+				"name": "Amante Luz",
+				"length": "5:11"
+			},
+			{
+				"name": "Para Estar",
+				"length": "4:56"
+			},
+			{
+				"name": "En La Oscuridad",
+				"length": "4:33"
+			},
+			{
+				"name": "Baja La Tensión",
+				"length": "4:27"
+			},
+			{
+				"name": "Ilegal",
+				"length": "5:05"
+			},
+			{
+				"name": "Somos Muchos",
+				"length": "4:44"
+			},
+			{
+				"name": "Del Tope Al Fondo",
+				"length": "5:06"
+			},
+			{
+				"name": "Me Faltabas Tu",
+				"length": "2:53"
+			},
+			{
+				"name": "Verso Terso",
+				"length": "6:05"
+			},
+			{
+				"name": "La Espera",
+				"length": "4:26"
+			}
+		]
+	},
+	"Curses from past times EP": {
+		"author": "Proleter",
+		"cover": "test7.jpg",
+		"year": 2013,
+		"songs": [
+			{
+				"name": "April Showers",
+				"length": "4:36"
+			},
+			{
+				"name": "Downtown Irony",
+				"length": "4:28"
+			},
+			{
+				"name": "Soul Key",
+				"length": "5:08"
+			},
+			{
+				"name": "A Million Dollar",
+				"length": "4:13"
+			},
+			{
+				"name": "U Can Get It",
+				"length": "4:28"
+			},
+			{
+				"name": "Back Home",
+				"length": "4:55"
+			},
+			{
+				"name": "Muhammad Ali",
+				"length": "4:03"
+			},
+			{
+				"name": "The Misfit Song",
+				"length": "4:46"
+			}
+		]
+	},
+	"Random Access Memories": {
+		"author": "Daft Punk",
+		"cover": "test8.jpg",
+		"year": 2013,
+		"songs": [
+			{
+				"name": "Give Life Back to Music",
+				"length": "4:35"
+			},
+			{
+				"name": "The Game of Love",
+				"length": "5:22"
+			},
+			{
+				"name": "Giorgio by Moroder",
+				"length": "9:05"
+			},
+			{
+				"name": "Within",
+				"length": "3:49"
+			},
+			{
+				"name": "Instant Crush",
+				"length": "5:38"
+			},
+			{
+				"name": "Lose Yourself the Dance",
+				"length": "5:54"
+			},
+			{
+				"name": "Touch",
+				"length": "8:19"
+			},
+			{
+				"name": "Beyond",
+				"length": "4:50"
+			},
+			{
+				"name": "Motherboard",
+				"length": "5:42"
+			},
+			{
+				"name": "Fragments of Time",
+				"length": "4:40"
+			},
+			{
+				"name": "Doin' Right",
+				"length": "4:11"
+			},
+			{
+				"name": "Contact",
+				"length": "6:24"
+			}
+		]
+	}
+}
