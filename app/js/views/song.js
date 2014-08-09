@@ -1,4 +1,8 @@
-Sfotipy.Views.Song = Backbone.View.extend({
+var Backbone = require('backbone'),
+	Handlebars = require('handlebars'),
+	$ = require('jquery');
+
+module.exports = Backbone.View.extend({
 	tagName: 'li',
 
 	className: 'item border-bottom',
@@ -23,7 +27,7 @@ Sfotipy.Views.Song = Backbone.View.extend({
 	},
 
 	select: function(){
-		Sfotipy.app.player.model.set(this.model.toJSON());
+		Backbone.app.player.model.set(this.model.toJSON());
 		return false;
 	},
 

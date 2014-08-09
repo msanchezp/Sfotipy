@@ -1,3 +1,8 @@
+var Backbone = require('backbone'),
+	Router = require('./routers/router'),
+	$ = require('jquery');
+Backbone.$ = $;
+
 $(function(){
-	Sfotipy.app = new Sfotipy.Router();
+	Backbone.app = new Router();
 });

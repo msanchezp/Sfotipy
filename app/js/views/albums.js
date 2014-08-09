@@ -1,7 +1,10 @@
-Sfotipy.Views.Albums = Backbone.View.extend({
-	el: $('#albums'),
+var Backbone = require('backbone'),
+	AlbumView = require('../views/album'),
+	$ = require('jquery');
 
-	template: Handlebars.compile($('#album-template').html()),
+
+module.exports = Backbone.View.extend({
+	el: $('#albums'),
 
 	initialize: function(){
 		this.listenTo(this.collection, "add", this.addOne, this);
@@ -12,7 +15,7 @@ Sfotipy.Views.Albums = Backbone.View.extend({
 	},
 
 	addOne: function(album){
-		var albumView = new Sfotipy.Views.Album({model: album});
+		var albumView = new AlbumView({model: album});
 		this.$el.append(albumView.render().el);
 	}
 });

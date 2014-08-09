@@ -1,4 +1,8 @@
-Sfotipy.Views.List = Backbone.View.extend({
+var Backbone = require('backbone'),
+	SongView = require('../views/song'),
+	$ = require('jquery');
+
+module.exports = Backbone.View.extend({
 	el: $('.playlist > .list'),
 
 	initialize: function(){
@@ -12,7 +16,7 @@ Sfotipy.Views.List = Backbone.View.extend({
 	},
 
 	addOne: function(song){
-		var songView = new Sfotipy.Views.Song({model: song});
+		var songView = new SongView({model: song});
 		this.$el.append(songView.render().el);
 	},
 

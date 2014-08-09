@@ -1,4 +1,16 @@
-Sfotipy.Router = Backbone.Router.extend({
+var Backbone = require('backbone'),
+	Albums = require('../collections/albums'),
+	Songs = require('../collections/songs'),
+	Album = require('../models/album'),
+	Song = require('../models/song'),
+	PlaylistView = require('../views/list'),
+	PlayerView = require('../views/player'),
+	AlbumsView = require('../views/albums'),
+	$ = require('jquery');
+
+
+
+module.exports = Backbone.Router.extend({
 	routes : {
 		"": "index",
 		"album/:name": "album"
@@ -7,11 +19,11 @@ Sfotipy.Router = Backbone.Router.extend({
 	initialize: function(){
 		this.current = {};
 		this.jsonData = {};
-		this.albums = new Sfotipy.Collections.Albums();
-		this.songs = new Sfotipy.Collections.Songs();
-		this.playlist= new Sfotipy.Views.List({ collection:this.songs });
-		this.player = new Sfotipy.Views.Player({ model: new Sfotipy.Models.Song() });
-		this.albumlist = new Sfotipy.Views.Albums({ collection:this.albums });
+		this.albums = new Albums();
+		this.songs =new Songs();
+		this.playlist= new PlaylistView({ collection:this.songs });
+		this.player = new PlayerView({ model: new Song() });
+		this.albumlist = new AlbumsView({ collection:this.albums });
 
 		Backbone.history.start();
 	},
@@ -35,7 +47,6 @@ Sfotipy.Router = Backbone.Router.extend({
 	fetchData: function(){
 		var self = this;
 		//Load Data
-		debugger;
 		return $.getJSON('data.json').then(function (data){
 			self.jsonData = data;
 
@@ -57,7 +68,7 @@ Sfotipy.Router = Backbone.Router.extend({
 	addSong: function(song){
 		var album = this.current.album;
 
-		this.songs.add(new Sfotipy.Models.Song({
+		this.songs.add(new Song({
 			album_cover: album.cover,
 			album_name: album.name,
 			author: album.author,
@@ -67,7 +78,7 @@ Sfotipy.Router = Backbone.Router.extend({
 	},
 
 	addAlbum: function(name, album){
-		this.albums.add(new Sfotipy.Models.Album({
+		this.albums.add(new Album({
 			name: name,
 			author: album.author,
 			cover: album.cover,
